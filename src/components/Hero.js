@@ -1,8 +1,17 @@
 function Hero() {
     return (
         <div className="flex flex-col items-center w-screen bg-black static top-0">
-            <div className="flex flex-col justify-end max-w-[1200px] w-full h-screen flex flex-col px-7 pt-32 -mt-20 sm:mt-0">
-                <div className="flex flex-col sm:flex-row py-14">
+            <div className="flex flex-col justify-end max-w-[1200px] w-full h-screen flex flex-col px-7 pt-32 -mt-4 sm:mt-0">
+                <div className="grow">
+                    <video
+                        src="/gradients/haze.mp4"
+                        className="h-full w-full object-cover -my-7 rounded-3xl"
+                        autoPlay
+                        loop
+                        muted
+                    />
+                </div>
+                <div className="flex flex-col sm:flex-row pb-14">
                     <div className="text-white flex flex-col w-full sm:w-11/12">
                         <div className=" text-3xl sm:text-5xl font-bold">
                             JORDAN PERANGINANGIN
