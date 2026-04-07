@@ -6,18 +6,33 @@ function Experience() {
                     [ EXPERIENCE ]
                 </div>
                 <div className="grid grid-cols-6 lg:grid-cols-12 gap-4 text-white">
+                    <div className="transition ease-out duration-300 hover:-translate-y-1 bg-cover bg-[url('/public/backgrounds/metaOffice.png')] col-span-6 rounded-2xl aspect-[750/490] flex flex-col justify-end overflow-hidden">
+                        <div className="flex flex-row p-4 bg-gradient-to-t from-neutral-800 pt-10 text-md xl:text-lg font-bold">
+                            <div className="flex flex-col">
+                                <div>SOFTWARE ENGINEER</div>
+                                <div className="flex sm:hidden opacity-40 items-end">
+                                    JUN 2025 - PRESENT
+                                </div>
+                                <div className="opacity-40">META</div>
+                            </div>
+                            <div className="grow"></div>
+                            <div className="hidden sm:flex opacity-40 items-end">
+                                JUN 2025 - PRESENT
+                            </div>
+                        </div>
+                    </div>
                     <div className="transition ease-out duration-300 hover:-translate-y-1 bg-cover bg-[url('/public/backgrounds/netappOffice.png')] col-span-6 rounded-2xl aspect-[750/490] flex flex-col justify-end overflow-hidden">
                         <div className="flex flex-row p-4 bg-gradient-to-t from-neutral-800 pt-10 text-md xl:text-lg font-bold">
                             <div className="flex flex-col">
                                 <div>SOFTWARE ENGINEER</div>
                                 <div className="flex sm:hidden opacity-40 items-end">
-                                    JUL 2024 - PRESENT
+                                    JUL 2024 - JUN 2025
                                 </div>
                                 <div className="opacity-40">NETAPP</div>
                             </div>
                             <div className="grow"></div>
                             <div className="hidden sm:flex opacity-40 items-end">
-                                JUL 2024 - PRESENT
+                                JUL 2024 - JUN 2025
                             </div>
                         </div>
                     </div>
